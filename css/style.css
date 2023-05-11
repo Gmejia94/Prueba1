@@ -1,0 +1,90 @@
+body{
+	font-family: 'Catamaran';
+}
+
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+	--color-text-white: #ffffff;
+}
+
+header{
+	color: var(--color-text-white);
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
+
+#coaches {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#coaches h1{
+	color: var(--color-negro);
+	font-weight: lighter;
+    text-align: center;
+}
+
+#coaches p{
+	color: var(--color-footer);
+	font-weight: lighter;
+}
+
+#welcome {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+#how-was {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#how-was img {
+	width: 50%;
+	text-align: center;
+}
+
+#gallery h1{
+	color: var(--color-negro);
+	font-weight: lighter;
+}
+
+#gallery p{
+	color: var(--color-footer);
+	font-weight: lighter;
+}
+
+
+
+.banner h1 {
+	color: var(--color-text-white);
+	font-weight: bold;
+	font-size: 70px;
+}
+
+.banner p {
+	color: var(--color-text-white);
+	font-size: 11px;
+}
+
+.titulobanner {
+	font-size: 120px;
+	font-weight: bolder;
+}
+
+.subtitulobanner {
+	font-size: 25px;
+}
+
+.divider {
+	padding-top: 120px;
+}
